@@ -39,8 +39,5 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), VitePWA(manifestForPlugin)],
-  build: {
-    outDir: "docs",
-  },
 });
 
